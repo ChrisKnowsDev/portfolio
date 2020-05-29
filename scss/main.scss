@@ -14,6 +14,8 @@ body {
   background: $secondary-color;
   color: $light-color;
   font-family: 'Nunito', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 1px;
 }
 
 a {
@@ -22,6 +24,14 @@ a {
 
 li {
   list-style: none;
+}
+
+// Landing Info
+.landing-info {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 @import 'media';
