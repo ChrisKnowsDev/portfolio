@@ -4,22 +4,4 @@ $dark-color: rgb(138, 146, 173);
 $primary-color: #ff6363;
 $secondary-color: rgb(14, 25, 45);
 $animation-speed: 0.3s;
-
-// Mixins
-@mixin tablet {
-  @media (min-width: 768px) {
-    @content;
-  }
-}
-
-@mixin desktop {
-  @media (min-width: 950px) {
-    @content;
-  }
-}
-
-@mixin widescreen {
-  @media (min-width: 1300px) {
-    @content;
-  }
-}
+$border-radius: 3px;

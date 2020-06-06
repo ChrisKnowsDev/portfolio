@@ -1,0 +1,53 @@
+#section-a {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+    color: $dark-color;
+  }
+
+  p {
+    margin: 2rem 0;
+  }
+
+  i {
+    color: $primary-color;
+    transition: all $animation-speed ease-in-out;
+    margin-right: 1rem;
+
+    &:hover {
+      color: $light-color;
+    }
+  }
+
+  // Media Queries
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 3.5rem;
+    }
+
+    h3 {
+      font-size: 2.5rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+    }
+  }
+
+  @media (min-width: 900px) {
+    h1 {
+      font-size: 4rem;
+    }
+
+    h3 {
+      font-size: 3rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+    }
+  }
+}

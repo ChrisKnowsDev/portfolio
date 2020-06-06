@@ -1,4 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,900&display=swap");
+#section-a h1 {
+  font-size: 3rem; }
+
+#section-a h3 {
+  font-size: 2rem;
+  color: #8a92ad; }
+
+#section-a p {
+  margin: 2rem 0; }
+
+#section-a i {
+  color: #ff6363;
+  transition: all 0.3s ease-in-out;
+  margin-right: 1rem; }
+  #section-a i:hover {
+    color: #ced6f3; }
+
+@media (min-width: 768px) {
+  #section-a h1 {
+    font-size: 3.5rem; }
+  #section-a h3 {
+    font-size: 2.5rem; }
+  #section-a p {
+    font-size: 1.1rem; } }
+
+@media (min-width: 900px) {
+  #section-a h1 {
+    font-size: 4rem; }
+  #section-a h3 {
+    font-size: 3rem; }
+  #section-a p {
+    font-size: 1.5rem; } }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -24,6 +57,19 @@ li {
   z-index: 1;
   width: 100%;
   padding: 1rem; }
+  #navbar button {
+    display: inline-block;
+    border-radius: 3px;
+    background: transparent;
+    outline: none;
+    border: 1px solid #ff6363;
+    padding: 0.5rem 2rem;
+    font-size: 1.1rem; }
+    #navbar button:hover {
+      cursor: pointer;
+      background: rgba(255, 99, 99, 0.1); }
+    #navbar button a {
+      color: #ff6363; }
 
 #navbar .toggler {
   position: absolute;
@@ -91,7 +137,8 @@ li {
 
 /* Show Menu */
 #navbar .toggler:checked ~ .menu {
-  visibility: visible; }
+  visibility: visible;
+  background: #0e192d; }
 
 #navbar .toggler:checked ~ .menu > div {
   transform: scale(1);
@@ -143,13 +190,6 @@ li {
 #navbar .menu > div > div > ul > li a:hover {
   color: #ff6363; }
 
-.container {
-  max-width: 900px;
-  margin: auto; }
-
-.text-primary {
-  color: #ff6363; }
-
 @media (min-width: 768px) {
   #navbar .hamburger {
     opacity: 0; }
@@ -163,9 +203,22 @@ li {
   #navbar .menu > div > div ul {
     display: flex;
     justify-content: flex-end; }
+    #navbar .menu > div > div ul button {
+      margin: 0.5rem 1rem 0;
+      padding: 0.025rem 1rem; }
   #navbar .menu > div > div ul li {
     font-size: 1.1rem; }
   #navbar .menu {
     display: block; }
   #navbar .menu > div {
     display: block; } }
+
+section {
+  margin: 15rem auto;
+  max-width: 1300px; }
+
+#main-wrapper {
+  padding: 0 1rem; }
+
+.text-primary {
+  color: #ff6363; }
