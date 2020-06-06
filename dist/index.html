@@ -1,43 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/69d25c3dbf.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./css/main.min.css">
-  <title>Chris Harley | Portfolio</title>
-</head>
-<body id="home">
-  <!-- Navbar -->
-  <nav id="navbar">
-    <input type="checkbox" class="toggler" id="nav-toggle" />
-    <div class="hamburger"><div></div></div>
-    <h1 class="text-primary">Chris Harley</h1>
-    <div class="menu">
-      <div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/69d25c3dbf.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Chris Harley | Portfolio</title>
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav id="navbar">
+      <input type="checkbox" class="toggler" id="nav-toggle" />
+      <div class="hamburger"><div></div></div>
+      <h1 class="text-primary">Chris Harley</h1>
+      <div class="menu">
         <div>
-          <ul>
-            <li><a href="#home" onclick="closeNav()"><span class="text-primary">-</span>  Home</a></li>
-            <li><a href="#about" onclick="closeNav()"><span class="text-primary">-</span> About</a></li>
-            <li><a href="#why" onclick="closeNav()"><span class="text-primary">-</span> Projects</a></li>
-            <li><a href="#start" onclick="closeNav()"><span class="text-primary">-</span> Contact</a></li>
-          </ul>
+          <div>
+            <ul>
+              <li>
+                <a href="#home" onclick="closeNav()"
+                  ><span class="text-primary">-</span> Home</a
+                >
+              </li>
+              <li>
+                <a href="#about" onclick="closeNav()"
+                  ><span class="text-primary">-</span> About</a
+                >
+              </li>
+              <li>
+                <a href="#why" onclick="closeNav()"
+                  ><span class="text-primary">-</span> Projects</a
+                >
+              </li>
+              <li>
+                <a href="#start" onclick="closeNav()"
+                  ><span class="text-primary">-</span> Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="landing-info">
+      <div class="container">
+        <h1>Chris Harley</h1>
+        <h3>Software Engineer | Creative Thinker</h3>
+        <p>
+          Hi, I'm a software engineer based in Atlanta, Ga. I love developing
+          full stack applications and learning new things.
+        </p>
+        <div class="social-media">
+          <i class="fab fa-github-alt fa-2x"></i>
+          <i class="fab fa-linkedin-in fa-2x"></i>
         </div>
       </div>
     </div>
-  </nav>
-
-  <div class="landing-info">
-    <div class="container">
-      <h1>Chris Harley</h1>
-      <h3>Software Engineer, Google Ninja, Creative Thinker</h3>
-      <p>Hi, I'm a software engineer based in Atlanta, Ga. I love developing full stack applications and learning new things.</p>
-      <div class="social-media">
-        <i class="fab fa-github-alt fa-2x"></i>
-        <i class="fab fa-linkedin-in fa-2x"></i>
-      </div>
-    </div>
-  </div>
-</body>
+  </body>
 </html>
