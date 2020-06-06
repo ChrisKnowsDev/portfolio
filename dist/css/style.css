@@ -195,7 +195,8 @@ li {
     opacity: 0; }
   /* Show Menu */
   #navbar .menu {
-    visibility: visible; }
+    visibility: visible;
+    height: 10vh; }
   #navbar .menu > div {
     transform: scale(1); }
   #navbar .menu > div > div {
