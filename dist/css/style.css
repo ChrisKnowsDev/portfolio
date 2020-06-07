@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,900&display=swap");
 #section-a {
-  margin-top: 24rem; }
+  height: 100vh; }
+  #section-a .container {
+    margin-top: 20rem; }
   #section-a h1 {
     font-size: 3rem; }
   #section-a h3 {
@@ -29,12 +31,84 @@
     #section-a p {
       font-size: 1.5rem; } }
 
-#section-b p {
-  margin-bottom: 1rem; }
+#section-b {
+  margin-top: -15rem; }
+  #section-b p {
+    margin-bottom: 1rem; }
+  #section-b .recent-tech {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+  #section-b .about-image {
+    text-align: center;
+    position: relative;
+    width: 250px;
+    height: auto;
+    text-align: center;
+    margin: 4rem auto 0;
+    background: #ff6363;
+    border-radius: 3px;
+    transition: all 0.3s ease-in; }
+    #section-b .about-image img {
+      width: 100%;
+      height: 50%;
+      opacity: 0.6;
+      border-radius: 3px; }
+      #section-b .about-image img:hover {
+        opacity: 1; }
+  @media (min-width: 769px) {
+    #section-b .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-content: start; }
+      #section-b .container .about-image {
+        align-self: start;
+        margin: 0;
+        justify-self: center; } }
+  @media (min-width: 900px) {
+    #section-b .about-image {
+      width: 350px; }
+      #section-b .about-image img {
+        height: 300px; } }
 
-#section-b .recent-tech {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); }
+#section-c .card-right .title {
+  text-align: right; }
+
+#section-c .card-right .links {
+  text-align: right; }
+
+#section-c .project-image {
+  height: 100%;
+  position: relative;
+  background: #ff6363; }
+  #section-c .project-image img {
+    position: absolute;
+    height: 100%;
+    opacity: 0.6; }
+    #section-c .project-image img:hover {
+      opacity: 1; }
+
+#section-c .project-info {
+  padding: 1rem; }
+  #section-c .project-info .title h3 {
+    font-size: 1.5rem; }
+  #section-c .project-info .about {
+    text-align: center;
+    margin: 2rem 0; }
+  #section-c .project-info .tech ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.9rem; }
+  #section-c .project-info .links {
+    margin-top: 1rem; }
+    #section-c .project-info .links a {
+      color: #ced6f3;
+      margin: 0 1rem;
+      font-size: 1.3rem; }
+
+@media (min-width: 768px) {
+  #section-c .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); } }
 
 * {
   box-sizing: border-box;
@@ -53,6 +127,9 @@ a {
 
 li {
   list-style: none; }
+
+img {
+  width: 100%; }
 
 #navbar {
   position: fixed;
@@ -203,7 +280,7 @@ li {
   /* Show Menu */
   #navbar .menu {
     visibility: visible;
-    height: 10vh; }
+    height: 15vh; }
   #navbar .menu > div {
     transform: scale(1); }
   #navbar .menu > div > div {
@@ -222,11 +299,14 @@ li {
     display: block; } }
 
 section {
-  margin: 15rem auto;
+  margin: 0 auto 15rem;
   max-width: 1300px; }
 
 #main-wrapper {
   padding: 0 1rem; }
+
+.card {
+  margin: 6rem 0; }
 
 .m-heading {
   margin-bottom: 2rem;

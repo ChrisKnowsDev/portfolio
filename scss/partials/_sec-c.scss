@@ -1,0 +1,65 @@
+#section-c {
+  .card-right {
+    .title {
+      text-align: right;
+    }
+
+    .links {
+      text-align: right;
+    }
+  }
+  .project-image {
+    height: 100%;
+    position: relative;
+    background: $primary-color;
+
+    img {
+      position: absolute;
+      height: 100%;
+      opacity: 0.6;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  .project-info {
+    padding: 1rem;
+
+    .title {
+      h3 {
+        font-size: 1.5rem;
+      }
+    }
+
+    .about {
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    .tech {
+      ul {
+        display: flex;
+        justify-content: space-around;
+        font-size: 0.9rem;
+      }
+    }
+
+    .links {
+      margin-top: 1rem;
+      a {
+        color: $light-color;
+        margin: 0 1rem;
+        font-size: 1.3rem;
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    .card {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}

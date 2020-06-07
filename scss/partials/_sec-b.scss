@@ -1,4 +1,6 @@
 #section-b {
+  margin-top: -15rem;
+
   p {
     margin-bottom: 1rem;
   }
@@ -6,5 +8,52 @@
   .recent-tech {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-image {
+    text-align: center;
+    position: relative;
+    width: 250px;
+    height: auto;
+    text-align: center;
+    margin: 4rem auto 0;
+    background: $primary-color;
+    border-radius: $border-radius;
+    transition: all $animation-speed ease-in;
+
+    img {
+      width: 100%;
+      height: 50%;
+      opacity: 0.6;
+      border-radius: $border-radius;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  @media (min-width: 769px) {
+    .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-content: start;
+
+      .about-image {
+        align-self: start;
+        margin: 0;
+        justify-self: center;
+      }
+    }
+  }
+
+  @media (min-width: 900px) {
+    .about-image {
+      width: 350px;
+
+      img {
+        height: 300px;
+      }
+    }
   }
 }

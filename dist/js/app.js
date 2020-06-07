@@ -4,16 +4,30 @@ function closeNav() {
 }
 
 // Hide and show menu on scroll
-let prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  const currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById('navbar').style.top = '0';
+// let prevScrollpos = window.pageYOffset;
+// window.onscroll = function() {
+//   const currentScrollPos = window.pageYOffset;
+//   if (prevScrollpos > currentScrollPos) {
+//     document.getElementById('navbar').style.top = '0';
+//   } else {
+//     document.getElementById('navbar').style.top = '-50px';
+//   }
+//   prevScrollpos = currentScrollPos;
+// };
+
+// Hide nav on scroll
+window.addEventListener("scroll", function() {
+  if (window.scrollY > 50) {
+    document.querySelector("#navbar").style.opacity = 0;
   } else {
-    document.getElementById('navbar').style.top = '-50px';
+    document.querySelector("#navbar").style.opacity = 1;
   }
-  prevScrollpos = currentScrollPos;
-};
+});
+
+// Close Menu Overlay
+function closeNav() {
+  document.getElementById("navi-toggle").checked = false;
+}
 
 // Smooth Scrolling
 $('#navbar a, .btn').on('click', function(event) {
