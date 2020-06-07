@@ -5,6 +5,9 @@
   z-index: 1;
   width: 100%;
   padding: 1rem;
+  transition: all $animation-speed ease-in-out;
+  background: $secondary-color;
+  z-index: 999;
 
   button {
     display: inline-block;

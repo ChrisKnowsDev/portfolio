@@ -1,0 +1,10 @@
+#section-b {
+  p {
+    margin-bottom: 1rem;
+  }
+
+  .recent-tech {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

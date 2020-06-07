@@ -1,3 +1,4 @@
+// containers
 section {
   margin: 15rem auto;
   max-width: 1300px;
@@ -5,6 +6,14 @@ section {
 
 #main-wrapper {
   padding: 0 1rem;
+}
+
+// headings
+.m-heading {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: $light-color;
 }
 
 // text utilities

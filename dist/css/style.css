@@ -1,36 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,900&display=swap");
-#section-a h1 {
-  font-size: 3rem; }
-
-#section-a h3 {
-  font-size: 2rem;
-  color: #8a92ad; }
-
-#section-a p {
-  margin: 2rem 0; }
-
-#section-a i {
-  color: #ff6363;
-  transition: all 0.3s ease-in-out;
-  margin-right: 1rem; }
-  #section-a i:hover {
-    color: #ced6f3; }
-
-@media (min-width: 768px) {
+#section-a {
+  margin-top: 24rem; }
   #section-a h1 {
-    font-size: 3.5rem; }
-  #section-a h3 {
-    font-size: 2.5rem; }
-  #section-a p {
-    font-size: 1.1rem; } }
-
-@media (min-width: 900px) {
-  #section-a h1 {
-    font-size: 4rem; }
-  #section-a h3 {
     font-size: 3rem; }
+  #section-a h3 {
+    font-size: 2rem;
+    color: #8a92ad; }
   #section-a p {
-    font-size: 1.5rem; } }
+    margin: 3rem 0; }
+  #section-a i {
+    color: #ff6363;
+    transition: all 0.3s ease-in-out;
+    margin-right: 1rem; }
+    #section-a i:hover {
+      color: #ced6f3; }
+  @media (min-width: 768px) {
+    #section-a h1 {
+      font-size: 3.5rem; }
+    #section-a h3 {
+      font-size: 2.5rem; }
+    #section-a p {
+      font-size: 1.1rem; } }
+  @media (min-width: 900px) {
+    #section-a h1 {
+      font-size: 4rem; }
+    #section-a h3 {
+      font-size: 3rem; }
+    #section-a p {
+      font-size: 1.5rem; } }
+
+#section-b p {
+  margin-bottom: 1rem; }
+
+#section-b .recent-tech {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
 
 * {
   box-sizing: border-box;
@@ -56,7 +60,10 @@ li {
   left: 0;
   z-index: 1;
   width: 100%;
-  padding: 1rem; }
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+  background: #0e192d;
+  z-index: 999; }
   #navbar button {
     display: inline-block;
     border-radius: 3px;
@@ -220,6 +227,12 @@ section {
 
 #main-wrapper {
   padding: 0 1rem; }
+
+.m-heading {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ced6f3; }
 
 .text-primary {
   color: #ff6363; }
