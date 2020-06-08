@@ -1,0 +1,35 @@
+#section-d {
+  .m-heading {
+    text-align: center;
+  }
+
+  .items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1rem;
+
+    .item {
+      background: $secondary-color-light;
+      padding: 1rem;
+      border-radius: $border-radius;
+
+      .title {
+        display: flex;
+        justify-content: space-between;
+
+        a {
+          color: $light-color;
+        }
+      }
+
+      .about {
+        margin: 1rem 0;
+      }
+
+      ul {
+        display: flex;
+        justify-content: space-around;
+      }
+    }
+  }
+}
