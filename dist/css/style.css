@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,900&display=swap");
 #section-a {
   max-width: 1300px;
-  margin: auto;
-  height: 100vh; }
+  height: 100vh;
+  margin: auto; }
   #section-a .container {
-    margin-top: 20rem; }
+    margin-top: 15rem; }
   #section-a h1 {
     font-size: 3rem; }
   #section-a h3 {
@@ -150,7 +150,8 @@
     margin-top: 2rem;
     padding: 1rem;
     border-radius: 3px;
-    transition: all 0.3s ease-in-out; }
+    transition: all 0.3s ease-in-out;
+    cursor: pointer; }
     #section-e form button:hover {
       border: 1px solid #ff6363;
       background: transparent;

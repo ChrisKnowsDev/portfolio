@@ -18,6 +18,7 @@
       padding: 1rem;
       border-radius: $border-radius;
       transition: all $animation-speed ease-in-out;
+      cursor: pointer;
 
       &:hover {
         border: 1px solid $primary-color;

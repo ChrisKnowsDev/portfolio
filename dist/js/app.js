@@ -3,26 +3,24 @@ function closeNav() {
   document.getElementById('nav-toggle').checked = false;
 }
 
-// Hide and show menu on scroll
-// let prevScrollpos = window.pageYOffset;
-// window.onscroll = function() {
-//   const currentScrollPos = window.pageYOffset;
-//   if (prevScrollpos > currentScrollPos) {
-//     document.getElementById('navbar').style.top = '0';
+// // Sticky Menu
+// window.addEventListener("scroll", function() {
+//   if (window.scrollY > 150) {
+//     document.querySelector("#navbar").style.backgroundColor = "#fff";
+//     document.querySelector("#navbar").style.color = "#333";
+//     let navLinks = document.querySelectorAll("a");
+//     navLinks.forEach(function(link) {
+//       link.style.color = "#333";
+//     });
 //   } else {
-//     document.getElementById('navbar').style.top = '-50px';
+//     document.querySelector("#navbar").style.backgroundColor = "transparent";
+//     document.querySelector("#navbar").style.color = "#fff";
+//     let navLinks = document.querySelectorAll("a");
+//     navLinks.forEach(function(link) {
+//       link.style.color = "#fff";
+//     });
 //   }
-//   prevScrollpos = currentScrollPos;
-// };
-
-// Hide nav on scroll
-window.addEventListener("scroll", function() {
-  if (window.scrollY > 50) {
-    document.querySelector("#navbar").style.opacity = 0;
-  } else {
-    document.querySelector("#navbar").style.opacity = 1;
-  }
-});
+// });
 
 // Close Menu Overlay
 function closeNav() {
