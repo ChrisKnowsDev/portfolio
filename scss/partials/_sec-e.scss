@@ -1,0 +1,42 @@
+#section-e {
+  .m-heading {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  form {
+    margin: auto;
+
+    button {
+      display: block;
+      width: 100%;
+      border: none;
+      outline: none;
+      background: $primary-color;
+      color: $secondary-color;
+      margin-top: 2rem;
+      padding: 1rem;
+      border-radius: $border-radius;
+      transition: all $animation-speed ease-in-out;
+
+      &:hover {
+        border: 1px solid $primary-color;
+        background: transparent;
+        color: $light-color;
+      }
+    }
+  }
+
+  input,
+  textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: $primary-color solid 1px;
+    padding: 1rem;
+    color: $light-color;
+    font-size: 1.1rem;
+  }
+}

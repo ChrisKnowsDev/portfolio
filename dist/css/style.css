@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,900&display=swap");
 #section-a {
+  max-width: 1300px;
+  margin: auto;
   height: 100vh; }
   #section-a .container {
     margin-top: 20rem; }
@@ -131,6 +133,40 @@
     #section-d .items .item ul {
       display: flex;
       justify-content: space-around; }
+
+#section-e .m-heading {
+  text-align: center;
+  font-size: 2rem; }
+
+#section-e form {
+  margin: auto; }
+  #section-e form button {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #ff6363;
+    color: #0e192d;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out; }
+    #section-e form button:hover {
+      border: 1px solid #ff6363;
+      background: transparent;
+      color: #ced6f3; }
+
+#section-e input,
+#section-e textarea {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: #ff6363 solid 1px;
+  padding: 1rem;
+  color: #ced6f3;
+  font-size: 1.1rem; }
 
 * {
   box-sizing: border-box;
