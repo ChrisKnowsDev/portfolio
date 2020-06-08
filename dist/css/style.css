@@ -133,6 +133,9 @@
     #section-d .items .item ul {
       display: flex;
       justify-content: space-around; }
+    #section-d .items .item i {
+      font-size: 1.5rem;
+      padding: 0 0.5rem; }
 
 #section-e .m-heading {
   text-align: center;
