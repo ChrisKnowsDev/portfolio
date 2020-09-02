@@ -48,13 +48,13 @@
     text-align: center;
     margin: 4rem auto 0;
     background: #82ccdd;
-    border-radius: 3px;
+    border-radius: 25px;
     transition: all 0.3s ease-in; }
     #section-b .about-image img {
       width: 100%;
       height: auto;
       opacity: 0.6;
-      border-radius: 3px; }
+      border-radius: 25px; }
       #section-b .about-image img:hover {
         opacity: 1; }
   @media (min-width: 769px) {
@@ -100,7 +100,10 @@
     #section-c .project-info .links a {
       color: #ced6f3;
       margin: 0 1rem;
-      font-size: 1.3rem; }
+      font-size: 2rem;
+      transition: all 0.3s ease; }
+      #section-c .project-info .links a:hover {
+        color: #82ccdd; }
 
 @media (min-width: 768px) {
   #section-c .card {
@@ -122,7 +125,11 @@
       display: flex;
       justify-content: space-between; }
       #section-d .items .item .title a {
-        color: #ced6f3; }
+        color: #ced6f3;
+        transition: all 0.3s ease;
+        font-size: 1.5rem; }
+        #section-d .items .item .title a:hover {
+          color: #82ccdd; }
     #section-d .items .item .about {
       margin: 1rem 0; }
     #section-d .items .item ul {
@@ -141,8 +148,8 @@
   #section-e form button {
     display: block;
     width: 100%;
+    font-size: 1.1rem;
     border: none;
-    outline: none;
     background: #82ccdd;
     color: #0e192d;
     margin-top: 2rem;
@@ -160,12 +167,12 @@
   display: block;
   width: 100%;
   border: none;
-  outline: none;
   background: transparent;
   border-bottom: #82ccdd solid 1px;
   padding: 1rem;
   color: #ced6f3;
-  font-size: 1.1rem; }
+  font-size: 1.1rem;
+  font-family: "Nunito", sans-serif; }
 
 * {
   box-sizing: border-box;
@@ -177,7 +184,8 @@ body {
   color: #ced6f3;
   font-family: "Nunito", sans-serif;
   line-height: 1.5;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  font-size: 1.2rem; }
 
 a {
   text-decoration: none; }

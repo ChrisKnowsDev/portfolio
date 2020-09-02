@@ -51,7 +51,12 @@
       a {
         color: $light-color;
         margin: 0 1rem;
-        font-size: 1.3rem;
+        font-size: 2rem;
+        transition: all $animation-speed ease;
+
+        &:hover {
+          color: $primary-color;
+        }
       }
     }
   }

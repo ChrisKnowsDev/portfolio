@@ -10,8 +10,8 @@
     button {
       display: block;
       width: 100%;
+      font-size: 1.1rem;
       border: none;
-      outline: none;
       background: $primary-color;
       color: $secondary-color;
       margin-top: 2rem;
@@ -33,11 +33,11 @@
     display: block;
     width: 100%;
     border: none;
-    outline: none;
     background: transparent;
     border-bottom: $primary-color solid 1px;
     padding: 1rem;
     color: $light-color;
     font-size: 1.1rem;
+    font-family: "Nunito", sans-serif;
   }
 }
