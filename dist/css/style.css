@@ -13,7 +13,7 @@
   #section-a p {
     margin: 3rem 0; }
   #section-a i {
-    color: #ff6363;
+    color: #82ccdd;
     transition: all 0.3s ease-in-out;
     margin-right: 1rem; }
     #section-a i:hover {
@@ -47,7 +47,7 @@
     height: 332px;
     text-align: center;
     margin: 4rem auto 0;
-    background: #ff6363;
+    background: #82ccdd;
     border-radius: 3px;
     transition: all 0.3s ease-in; }
     #section-b .about-image img {
@@ -76,7 +76,7 @@
 #section-c .project-image {
   height: 100%;
   position: relative;
-  background: #ff6363; }
+  background: #82ccdd; }
   #section-c .project-image img {
     position: absolute;
     height: 100%;
@@ -143,7 +143,7 @@
     width: 100%;
     border: none;
     outline: none;
-    background: #ff6363;
+    background: #82ccdd;
     color: #0e192d;
     margin-top: 2rem;
     padding: 1rem;
@@ -151,7 +151,7 @@
     transition: all 0.3s ease-in-out;
     cursor: pointer; }
     #section-e form button:hover {
-      border: 1px solid #ff6363;
+      border: 1px solid #82ccdd;
       background: transparent;
       color: #ced6f3; }
 
@@ -162,7 +162,7 @@
   border: none;
   outline: none;
   background: transparent;
-  border-bottom: #ff6363 solid 1px;
+  border-bottom: #82ccdd solid 1px;
   padding: 1rem;
   color: #ced6f3;
   font-size: 1.1rem; }
@@ -175,7 +175,7 @@
 body {
   background: #0e192d;
   color: #ced6f3;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   line-height: 1.5;
   letter-spacing: 1px; }
 
@@ -203,14 +203,14 @@ img {
     border-radius: 3px;
     background: transparent;
     outline: none;
-    border: 1px solid #ff6363;
+    border: 1px solid #82ccdd;
     padding: 0.5rem 2rem;
     font-size: 1.1rem; }
     #navbar button:hover {
       cursor: pointer;
-      background: rgba(255, 99, 99, 0.1); }
+      background: rgba(130, 204, 221, 0.1); }
     #navbar button a {
-      color: #ff6363; }
+      color: #82ccdd; }
 
 #navbar .toggler {
   position: absolute;
@@ -245,12 +245,12 @@ img {
   justify-content: center;
   align-items: center;
   transition: all 0.3s ease-in-out;
-  background: #ff6363; }
+  background: #82ccdd; }
 
 /* Hamburger Lines - Top & Bottom */
 #navbar .hamburger > div::before,
 #navbar .hamburger > div::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: 1;
   top: -10px;
@@ -329,7 +329,7 @@ img {
   transition: all 0.3s ease; }
 
 #navbar .menu > div > div > ul > li a:hover {
-  color: #ff6363; }
+  color: #82ccdd; }
 
 @media (min-width: 768px) {
   #navbar .hamburger {
@@ -372,7 +372,7 @@ section {
   color: #ced6f3; }
 
 .text-primary {
-  color: #ff6363; }
+  color: #82ccdd; }
 
 .text-center {
   text-align: center; }

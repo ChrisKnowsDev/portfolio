@@ -70,7 +70,7 @@
 /* Hamburger Lines - Top & Bottom */
 #navbar .hamburger > div::before,
 #navbar .hamburger > div::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: 1;
   top: -10px;
