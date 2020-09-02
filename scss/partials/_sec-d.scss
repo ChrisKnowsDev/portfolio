@@ -19,6 +19,12 @@
 
         a {
           color: $light-color;
+          transition: all $animation-speed ease;
+          font-size: 1.5rem;
+
+          &:hover {
+            color: $primary-color;
+          }
         }
       }
 

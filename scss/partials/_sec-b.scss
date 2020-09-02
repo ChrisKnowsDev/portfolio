@@ -18,14 +18,14 @@
     text-align: center;
     margin: 4rem auto 0;
     background: $primary-color;
-    border-radius: $border-radius;
+    border-radius: 25px;
     transition: all $animation-speed ease-in;
 
     img {
       width: 100%;
       height: auto;
       opacity: 0.6;
-      border-radius: $border-radius;
+      border-radius: 25px;
 
       &:hover {
         opacity: 1;
