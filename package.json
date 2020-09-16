@@ -25,5 +25,9 @@
   "homepage": "https://github.com/charley81/portfolio#readme",
   "devDependencies": {
     "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cloudinary-core": "^2.11.2"
   }
 }
